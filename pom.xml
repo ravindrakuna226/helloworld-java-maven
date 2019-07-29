@@ -43,11 +43,13 @@
         </build>
 <distributionManagement>
     <repository>
-        <id>releases</id>
+        <id>sasi</id>
+        <name>sasi-release</name>
         <url>http://ec2-13-126-233-214.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/sasi/</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>sasi1</id>
+      <name>sasi-snap</name>
         <url>http://ec2-13-126-233-214.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/sasi1/</url>
     </snapshotRepository>
 </distributionManagement>
