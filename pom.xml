@@ -42,11 +42,6 @@
         </plugins>
         </build>
 <distributionManagement>
-    <repository>
-        <id>sasi</id>
-        <name>sasi-release</name>
-        <url>http://ec2-52-66-179-172.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/sasi/</url>
-    </repository>
     <snapshotRepository>
         <id>sasi1</id>
       <name>sasi-snap</name>
