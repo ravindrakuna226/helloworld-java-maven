@@ -41,11 +41,5 @@
                 </plugin>
         </plugins>
         </build>
-<distributionManagement>
-    <snapshotRepository>
-        <id>sasi1</id>
-      <name>sasi-snap</name>
-        <url>http://ec2-52-66-179-172.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/sasi1/</url>
-    </snapshotRepository>
-</distributionManagement>
+
 </project>
